@@ -49,3 +49,6 @@ builds/**/images/*
 # security / ssl
 *.pem
 *.xxjson
+
+#vscode files
+*/.vscode
