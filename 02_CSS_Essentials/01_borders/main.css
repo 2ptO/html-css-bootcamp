@@ -1,0 +1,43 @@
+div {
+    height: 100px;
+    width: 100px;
+    border: green solid 10px; 
+    padding: 20px;
+    margin: 10px;
+    /*
+    * Adding display property voids several other
+    * properties such as height, width etc..
+    */
+}
+
+.divClassOne {
+    /*display: inline;*/
+    background-color: crimson;
+    box-sizing: content-box
+}
+
+img {
+    height: 200px;
+    width: 200px
+}
+
+/*
+* was able to play by adding new properties or modifying
+* existing properties through the Insepct feature in the browser.
+*/
+.classOne {
+    border: 10px black dotted;
+    border-radius: 20%
+}
+
+.classTwo {
+    border: 10px darkcyan dashed
+}
+
+.classThree {
+    box-sizing: border-box;
+    border-radius: 50%;
+    /*learnt box-shadow through the inspect feature*/
+    box-shadow: 0px 0px 5px 5px coral;
+    padding: 10px
+}
