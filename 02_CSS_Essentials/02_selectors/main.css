@@ -1,0 +1,29 @@
+[contenteditable] {
+    color:red;
+    font-size: 14px
+}
+
+[href] {
+    font: 20px italic
+}
+
+[src] {
+    border: 10px dashed chocolate
+}
+
+img {
+    height: 200px;
+    width: 200px
+}
+
+div {
+    height: 50px;
+    width: 50px;
+    background-color: lightcoral;
+    display: inline-block
+}
+
+div:hover {
+    background-color: lawngreen
+}
+
