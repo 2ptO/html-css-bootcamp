@@ -1,0 +1,31 @@
+li:first-child {
+    color:red;
+    font-size: 30px;
+}
+
+li:last-child {
+    color:darkviolet;
+    font-size: 30px;
+}
+
+li:nth-child(3) {
+    color: magenta
+}
+
+li:nth-child(odd) {
+    font-weight: 600
+}
+
+li:nth-child(even) {
+    font-style: italic
+}
+
+li:nth-child(3n+3) {
+    font-family: Courier New, Courier, monospace
+}
+
+/*apply this only when li is the only child.
+i.e. list with single item.*/
+li:only-child {
+    font-size: 100px;
+}

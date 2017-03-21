@@ -1,0 +1,22 @@
+a:link {
+    color: black
+}
+
+a:hover {
+    color: green
+}
+
+a:visited {
+    color: blue
+}
+
+a:active {
+    color:red
+}
+
+form {
+    border: 2px dotted black
+}
+input:focus {
+    background-color: lightgreen
+}
