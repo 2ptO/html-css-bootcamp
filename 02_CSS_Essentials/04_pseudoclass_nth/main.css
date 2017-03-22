@@ -29,3 +29,11 @@ i.e. list with single item.*/
 li:only-child {
     font-size: 100px;
 }
+
+p::first-letter {
+    font-size: 50px
+}
+
+p::first-line {
+    color: red
+}
