@@ -1,0 +1,26 @@
+html {
+    background-color: lightblue
+}
+
+body {
+    background-color: lightseagreen;
+    border: 5px solid black;
+    padding: 10px;
+    width : 60%;
+    margin: 0%  auto
+}
+
+img {
+    display: block;
+    border-radius: 50%;
+    border: 20px groove orange;
+    margin : 0 auto
+}
+
+#firsth1{
+    color: blue
+}
+
+#secondh1 {
+    color:red
+}
