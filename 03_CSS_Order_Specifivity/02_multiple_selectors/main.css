@@ -1,0 +1,28 @@
+/*Order matters:
+The last specified selector has higher precedence in cas of multiple instances.
+*/
+
+/* Element selectors has a specifivity of 1 */
+p {
+    color : hotpink
+}
+
+/*Class Selectors has a specifivity of 10;*/
+p .redAgain {
+    color : red
+}
+
+.blue {
+    color : blue
+}
+
+/*ID Selectors has a specifivity of 100 */
+#red{
+    color : red
+}
+
+/*Inline selectors have specifivity of 1000*/
+
+html body p .firebrick {
+    color: firebrick
+}

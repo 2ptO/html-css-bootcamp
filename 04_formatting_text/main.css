@@ -1,0 +1,69 @@
+/*
+font is a short hand to specify 6 different selectors. 
+1. font-family (typeface)
+2. font-size (size in pixels, rems, vw, etc..)
+3. font-weight (bold, normal, bolder, or in 100...900)
+4. font-style (normal/italic/initial)
+5. font-variation
+6. line-height (in pixels)
+*/
+p {
+    font-family: Chalkduster, sans-serif;
+    /*em - m
+      rem - root em (size computed from default font settings in the browser
+      px - pixels
+      - all these are data types in CSS
+    */
+    font-size: 2rem;
+    font-weight: bold;
+    font-style: oblique;
+    font-variant: normal;
+    color: green
+}
+
+/*Using an unavailable font. It should default to sans-serif*/
+
+.unknown {
+    font-family: Unknown, sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    font-style: oblique;
+    font-variant: initial;
+    color: red
+}
+
+/*Specifying the font using shorthand property*/
+.shortHandFont {
+    /*font-style font-weight font-size/line-height font-family*/
+    font: normal bold 30px monospace;
+    color : blue ;
+    border : 5px dotted black
+}
+
+/*Specifying the font using shorthand property*/
+.shortHandFontWithLH {
+    /*font-style font-weight font-size/line-height font-family*/
+    font: normal bold 30px/50px monospace;
+    color : blue ;
+    border : 5px dotted black
+}
+
+.variant {
+    font-variant: small-caps
+}
+
+.textTransform {
+    text-transform: capitalize;
+    font-family: sans-serif;
+    color: red;
+    font-size: 2rem;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.textAlign {
+    font: normal bold 30px monospace;
+    color : blue ;
+    border : 5px dotted black;
+    text-align: center
+}

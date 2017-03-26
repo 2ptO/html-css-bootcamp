@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS Selectors Hands on 2</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <!--
+(1) Create an html page with an ordered list of 20 list items. Use an ID to select the third list item. Style the third list item red.
+(2) Create an html page with an ordered list of 20 list items. Use a class to select the third, fourth, and fifth list item. Style these items red. 
+(3) Create an html page with 2 anchor tags providing links to different websites. Give one of the anchor tags the target attribute. Use an attribute selector to select the anchor tag with the target attribute. Style this selected anchor tag to have a border around it.
+(4) Create an html page with 1 anchor tag. Provide styling for this anchor tag including different colors for these css pseudo-class properties: link, visited, hover, active. 
+(5) Create a paragraph of text. Style the first letter of that paragraph and the first line to be different from the rest of the paragraph.
+(6) Use this emmet to create this html within an html page’s body tag ...    p{$}+div>p{$$}*3+article>p>lorem^^^p{$$$}*3    … and then, once the html is created, do the following: select all p tags that are children of a div and make them red.
+(7) Use this emmet to create this html within an html page’s body tag ...    p{$}+div>p{$$}*3+article>p>lorem^^^p{$$$}*3    … and then, once the html is created, do the following: select all p tags that are immediate children of a div and make them red.
+(8) Use this emmet to create this html within an html page’s body tag ...    p{$}+div>p{$$}*3+article>p>lorem^^^p{$$$}*3    … and then, once the html is created, do the following: select all p tags that are siblings following a div and make them red.
+(9) Use this emmet to create this html within an html page’s body tag ...    p{$}+div>p{$$}*3+article>p>lorem^^^p{$$$}*3    … and then, once the html is created, do the following: select all p tags that are an immediate sibling following a div and make it red.
+-->
+<h1>Hands On # 1</h1>
+<p>(1) Create an html page with an ordered list of 20 list items. Use an ID to select the third list item. Style the third list item red.</p>
+<ol id="third">
+    <li>01</li>
+    <li>02</li>
+    <li>03</li>
+    <li>04</li>
+    <li>05</li>
+    <li>06</li>
+    <li>07</li>
+    <li>08</li>
+    <li>09</li>
+    <li>10</li>
+    <li>11</li>
+    <li>12</li>
+    <li>13</li>
+    <li>14</li>
+    <li>15</li>
+    <li>16</li>
+    <li>17</li>
+    <li>18</li>
+    <li>19</li>
+    <li>20</li>
+</ol>
+
+<h1>Hands On #2</h1>
+<p>(2) Create an html page with an ordered list of 20 list items. Use a class to select the third, fourth, and fifth list item. Style these items red. </p>
+<ol class="tff">
+    <li>01</li>
+    <li>02</li>
+    <li>03</li>
+    <li>04</li>
+    <li>05</li>
+    <li>06</li>
+    <li>07</li>
+    <li>08</li>
+    <li>09</li>
+    <li>10</li>
+    <li>11</li>
+    <li>12</li>
+    <li>13</li>
+    <li>14</li>
+    <li>15</li>
+    <li>16</li>
+    <li>17</li>
+    <li>18</li>
+    <li>19</li>
+    <li>20</li>
+</ol>
+<h1>Hands On #3</h1>
+<p>
+    (3) Create an html page with 2 anchor tags providing links to different websites. Give one of the anchor tags the target attribute. Use an attribute selector to select the anchor tag with the target attribute. Style this selected anchor tag to have a border around it.
+</p>
+<a href="https://www.google.com" target="_blank">Google</a>
+<br>
+<a href="https://www.apple.com">Apple</a>
+<h1>Hands On #4</h1>
+<p>(4) Create an html page with 1 anchor tag. Provide styling for this anchor tag including different colors for these css pseudo-class properties: link, visited, hover, active. </p>
+<a href="http://www.wikipedia.org">wikipedia</a>
+<h1>Hands On #5</h1>
+<p> (5) Create a paragraph of text. Style the first letter of that paragraph and the first line to be different from the rest of the paragraph. </p>
+<p class="handsOnSix">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et architecto fugit, in at aut doloremque sunt fugiat fuga, iusto magnam, porro ipsa numquam deserunt animi odit quam provident nihil? Vel!</p>
+<h1>Hands On #6</h1>
+<p>(6) Use this emmet to create this html within an html page’s body tag ...    p{$}+div>p{$$}*3+article>p>lorem^^^p{$$$}*3    … and then, once the html is created, do the following: select all p tags that are children of a div and make them red.</p>
+<p>1</p>
+<div>
+    <p>01</p>
+    <p>02</p>
+    <p>03</p>
+    <article>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur velit earum similique eveniet, rerum iste tempora, saepe laudantium. Cum dolores doloribus tempora repudiandae omnis dolor, libero quod magni labore sit.</p>
+    </article>
+</div>
+<p>001</p>
+<p>002</p>
+<p>003</p>
+<h1>Hands On #7</h1>
+<p>(7) Use this emmet to create this html within an html page’s body tag ...    p{$}+div>p{$$}*3+article>p>lorem^^^p{$$$}*3    … and then, once the html is created, do the following: select all p tags that are immediate children of a div and make them red.</p>
+<p>1</p>
+<div>
+    <p>01</p>
+    <p>02</p>
+    <p>03</p>
+    <article>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore esse, neque dolor accusamus odio at nobis aut voluptatibus modi tempore vel autem, nisi id eveniet odit nam ipsum tempora quibusdam.</p>
+    </article>
+</div>
+<p>001</p>
+<p>002</p>
+<p>003</p>
+<h1>Hands On #8</h1>
+<p>(8) Use this emmet to create this html within an html page’s body tag ...    p{$}+div>p{$$}*3+article>p>lorem^^^p{$$$}*3    … and then, once the html is created, do the following: select all p tags that are siblings following a div and make them red.</p>
+<p>1</p>
+<div>
+    <p>01</p>
+    <p>02</p>
+    <p>03</p>
+    <article>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius beatae asperiores inventore vel, earum, sunt iusto, eaque aperiam nostrum unde temporibus expedita tempora vitae. Voluptate neque, incidunt omnis minus? Quaerat?</p>
+    </article>
+</div>
+<p>001</p>
+<p>002</p>
+<p>003</p>
+<h1>Hands On #9</h1>
+<p>(9) Use this emmet to create this html within an html page’s body tag ...    p{$}+div>p{$$}*3+article>p>lorem^^^p{$$$}*3    … and then, once the html is created, do the following: select all p tags that are an immediate sibling following a div and make it red.</p>
+</body>
+</html>

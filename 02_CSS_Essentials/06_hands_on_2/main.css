@@ -1,0 +1,60 @@
+
+body {
+    font-family: Monaco, sans-serif
+}
+
+/*nth-child selector using id*/
+#third li:nth-child(3) {
+    color: red
+}
+
+/*nth-child range selector using a class*/
+/*used help from http://nthmaster.com/ */
+.tff li:nth-child(n+3):nth-child(-n+5)  {
+    color:red
+}
+
+/*Attribute selector*/
+[target] {
+    border: 5px dashed orange
+}
+
+/*LVHA properties for anchor tag*/
+a:link {
+    color:blueviolet
+}
+
+a:visited {
+    color:blue
+}
+
+a:hover {
+    color:greenyellow
+}
+
+a:active {
+    color:red
+}
+
+
+div p {
+    color :red;
+}
+
+div > p {
+    color : lime
+}
+
+div ~ p {
+    color: mediumblue
+}
+
+div + p {
+    color : deeppink
+}
+
+.handsOnSix p::first-letter {
+    font-style: italic;
+    font-size: 20px;
+    color:red
+}
