@@ -37,7 +37,7 @@ p {
     /*font-style font-weight font-size/line-height font-family*/
     font: normal bold 30px monospace;
     color : blue ;
-    border : 5px dotted black
+    border : 5px dashed black
 }
 
 /*Specifying the font using shorthand property*/
@@ -45,7 +45,7 @@ p {
     /*font-style font-weight font-size/line-height font-family*/
     font: normal bold 30px/50px monospace;
     color : blue ;
-    border : 5px dotted black
+    border : 5px dashed black
 }
 
 .variant {
@@ -66,4 +66,8 @@ p {
     color : blue ;
     border : 5px dotted black;
     text-align: center
+}
+
+.googleFont {
+    font-family: 'Handlee', 'Roboto', sans-serif
 }

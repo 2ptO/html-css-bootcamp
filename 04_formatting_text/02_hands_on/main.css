@@ -1,0 +1,35 @@
+.spacing {
+    font-size : 2rem;
+    word-spacing: 2px;
+    letter-spacing: 10px;
+    text-align: center
+}
+
+h1 {
+    font-size: 3rem;
+    text-shadow: 2px 2px 5px lime;
+    text-align: center
+}
+
+h2 {
+    text-align: center
+}
+
+a {
+    text-decoration: unset
+}
+
+a:hover {
+    text-decoration: underline
+}
+
+h3 {
+    text-align: center;
+    text-decoration: line-through
+}
+
+.indent {
+    font-size: 2rem;
+    font-family: sans-serif;
+    text-indent: 5ch;
+}
