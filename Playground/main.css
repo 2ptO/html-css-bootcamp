@@ -1,0 +1,21 @@
+div {
+  width : 100px;
+  height : 40px;
+  margin : 2px;
+  border-radius : 20%;
+  background-color : red;
+  border: 2px solid black;
+  display : inline-block
+}
+
+div:nth-child(4n+2) {
+    background-color: blue
+}
+
+div:nth-child(4n+3) {
+    background-color: yellow
+}
+
+div:nth-child(4n+4) {
+  background-color : green;
+}

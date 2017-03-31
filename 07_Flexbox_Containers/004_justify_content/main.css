@@ -1,0 +1,41 @@
+header {
+    display: flex;
+    flex-flow : row wrap;
+    justify-content: center
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color : yellow;
+    border : 2px solid black;
+    margin : 1em
+}
+
+article {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between
+}
+
+.paper {
+    background-color: lightgray;
+    border : 2px solid black;
+    display: inline-block
+}
+
+.headlines {
+     /*font-style font-weight font-size/line-height font-family*/
+     font : normal bold 2em Arial;
+     border : 2px dotted green;
+     width: 200px;
+     margin : 5px;
+     background-color: lightblue
+}
+
+footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around
+}
