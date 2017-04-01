@@ -1,0 +1,30 @@
+body {
+    border: 2px solid red;
+    height: 100%
+}
+
+header {
+    font-family: Helvetica, sans-serif;
+    font-size: 2rem;
+    font-style: italic;
+    margin : 1em;
+}
+
+.movie_review {
+    border: 2px solid green;
+    background-color: palegreen;
+    margin: 1em;
+}
+
+.user_reviews {
+    border: 2px dotted blue;
+    background-color: lightblue;
+    margin: 1em;
+}
+
+.user_review {
+    border: 2px dotted deeppink;
+    background-color: lightpink;
+    margin: 1em;
+    height: 100px
+}

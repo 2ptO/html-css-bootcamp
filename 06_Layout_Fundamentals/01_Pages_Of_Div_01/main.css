@@ -1,0 +1,26 @@
+header {
+    border: 2px solid red;
+    margin: 1em;
+}
+
+div {
+    height: 50px;
+    width: 100px;
+    border: 2px solid black;
+    /*This is the key to this solution*/
+    display: inline-block;
+    border-radius: 50px;
+    background-color: red;
+}
+
+div:nth-child(2n + 2) {
+    background-color: blue;
+}
+
+div:nth-child(3n + 3) {
+    background-color: yellow;
+}
+
+div:nth-child(4n + 4) {
+    background-color: green;
+}
